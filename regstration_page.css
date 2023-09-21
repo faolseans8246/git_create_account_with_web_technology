@@ -1,0 +1,107 @@
+
+body {
+    background-color: aquamarine;
+}
+
+.registration_part {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 12%;
+    width: 30%;
+    height: 270px;
+    background-color: chartreuse;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(85, 9, 236);
+}
+
+.your-notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-pass {
+    margin-left: 19px;
+}
+
+.create-pass {
+    margin-left: 7px;
+}
+
+.repeat-pass {
+    margin-left: 3px;
+}
+
+.email-label, .create_pass-label, .repeat_pass-label {
+    color: brown;
+    font-size: 18px;
+}
+
+.email-pass, .create-pass, .repeat-pass {
+    color: blueviolet;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 220px;
+    border: none;
+    background: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.email-pass:hover, .create-pass:hover, .repeat-pass:hover {
+    color: blueviolet;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 220px;
+    border: none;
+    background: none;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.part-of-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.part-of-button button {
+    width: 380px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: cyan;
+}
+
+.part-of-button button:hover {
+    width: 380px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.part-of-button button:active {
+    width: 370px;
+    height: 24px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: chocolate;
+}
